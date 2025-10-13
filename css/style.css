@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    margin: 0;
+}
+
+body{
+
+}
+
+.container{
+    max-width: 1230px;
+    max-height: 50PX;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    margin-left: 60px;
+}
+
+.nav-link{
+    color: rgba(66, 69, 81, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.nav-link:hover{
+    color: rgba(255, 63, 58, 1);
+}
+
+.btns__left{
+    margin-left: 222px;
+    display: flex;
+}
+
+.btn-danger{
+    border-radius: 4px;
+    background: linear-gradient(45.00deg, rgba(255, 63, 58, 1),rgba(246.6254425048828, 93.75582122802734, 5.25230598449707, 1) 100%);
+    color: white;
+    border: none;
+    transition: all ease .2s;
+}
+
+.btn-danger:hover{
+    background: linear-gradient(45.00deg,rgb(165, 46, 86),  rgb(180, 100, 54) 100%);
+     transition: all ease .2s;
+  
+}
+
+.nav__register{
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.play__items{
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.btn__play{
+    position: relative;
+    width: 84px;
+    height: 84px;
+    padding: 16px;
+    border-radius: 45px;
+    border: none;
+    background: rgba(255, 64, 58, 0.13);
+
+}
+
+.play__img{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    transition: all ease .2s;
+}
+
+.btn__play:hover{
+    background: rgba(255, 64, 58, 0.50);
+    transition: all ease .2s;
+}
+
+.btn__play:hover > .play__img{
+    width: 60px;
+    height: 60px;
+    transition: all ease .2s;
+    
+}
+
+.play__text{
+    font-weight: 700;
+}
+
+.about__title{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 77px;
+    letter-spacing: 1px;
+    text-align: left;
+    max-width: 496px;
+    max-height: 249px;
+    margin-top: 24px;
+}

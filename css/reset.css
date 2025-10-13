@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: "Lato", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
 }
 ol, ul {
 	list-style: none;
