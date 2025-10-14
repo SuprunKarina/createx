@@ -132,6 +132,22 @@ overflow-x: hidden;
     opacity: 0.3;
 }
 
+.element_icon_4{
+    left: 735px;
+    top: 415px;
+}
+
+.element_icon_5{
+    top: 686px;
+    left: 670px;
+}
+
+.element_icon_6{
+    bottom: 130px;
+    right: -30px;
+    opacity: 0.3;
+}
+
 .nav__register{
     display: flex;
     align-items: center;
@@ -256,4 +272,64 @@ button.btn-outline-danger:hover {
     font-weight: 400;
     line-height: 19px;
     color: rgba(30, 33, 44, 1);
+}
+
+.why__createx-inner{
+    display: flex;
+    gap: 135px;
+    margin-top: 160px
+}
+
+.why__createx-column{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.why__createx-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.why__createx-subtitle{
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.why__createx-title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: left;
+}
+
+.why__createx-items{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.items__row{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.checkmark__img{
+    margin-top: 2px
+}
+
+.items__text{
+    color: rgba(66, 69, 81, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
 }
