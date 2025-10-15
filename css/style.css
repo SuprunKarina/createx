@@ -43,6 +43,10 @@ body{
 overflow-x: hidden;
 }
 
+.mb160{
+    margin-bottom: 160px;
+}
+
 .container{
     max-width: 1230px;
     padding: 20px 0;
@@ -277,7 +281,6 @@ button.btn-outline-danger:hover {
 .why__createx-inner{
     display: flex;
     gap: 135px;
-    margin-top: 160px
 }
 
 .why__createx-column{
@@ -322,6 +325,21 @@ button.btn-outline-danger:hover {
     gap: 16px;
 }
 
+.featured__courses-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.featured__courses-middle{
+    display: flex;
+    gap: 30px;
+}
+
+.featured__column-left, .featured__column-right{
+    gap: 30px;
+}
+
 .checkmark__img{
     margin-top: 2px
 }
@@ -332,4 +350,102 @@ button.btn-outline-danger:hover {
     font-weight: 400;
     line-height: 19px;
     text-align: left;
+}
+
+.featured__courses-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.featured__top-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.featured__subtitle {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.featured__title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: left;
+}
+
+.featured__img{
+    width: 100%;
+}
+
+.featured__card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.featured__card-subtitle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    border-radius: 4px;
+    padding: 1px 8px;
+    max-width: max-content;
+}
+
+.card__susbtitle-marketing{
+    background: rgba(3, 206, 164, 1);
+}
+
+.card__susbtitle-hr{
+    background: rgba(248, 152, 40, 1);
+}
+
+.card__susbtitle-management{
+    background: rgba(90, 135, 252, 1);
+}
+
+.card__susbtitle-design{
+    background: rgba(245, 47, 110, 1);
+}
+
+.featured__card-title{
+    color: rgba(30, 33, 44, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.featured__bottom-row{
+    display: flex;
+    gap: 8px;
+}
+
+.featured__card-number {
+    color: rgba(255, 66, 66, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+
+.featured__card-credits{
+    color: rgba(120, 122, 128, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    border-left: 1px solid;
+    padding-left: 7px;
 }
