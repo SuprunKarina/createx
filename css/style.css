@@ -43,8 +43,12 @@ body{
 overflow-x: hidden;
 }
 
-.mb160{
-    margin-bottom: 160px;
+.mb180{
+    margin-bottom: 180px;
+}
+
+.mb120{
+    margin-bottom: 120px;
 }
 
 .container{
@@ -67,7 +71,7 @@ overflow-x: hidden;
     margin-left: 60px;
 }
 
-.nav-link{
+.header-tabs{
     color: rgba(66, 69, 81, 1);
     font-size: 16px;
     font-weight: 700;
@@ -448,4 +452,68 @@ button.btn-outline-danger:hover {
     text-align: left;
     border-left: 1px solid;
     padding-left: 7px;
+}
+
+.our__benefits-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our__benefits-subtitle {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our__benefits-title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: center;
+}
+
+.benefits-tab-button{
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    padding: 10px 70px;
+} 
+
+.benefits-tab-button:hover{
+    border: 1px solid rgba(255, 66, 66, 1);
+    border-radius: 4px;
+}
+
+.benefits-tab-button:hover > .benefits-link {
+    color: rgba(255, 66, 66, 1);
+}
+
+.benefits-link{
+    color: rgba(154, 156, 165, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    padding: 0;
+}
+
+.benefits__middle-title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    text-align: left;
+}
+
+.benefits__tab{
+    display: flex;
+}
+
+.benefits__tab-column{
+
 }
