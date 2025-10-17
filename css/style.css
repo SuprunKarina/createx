@@ -478,20 +478,21 @@ button.btn-outline-danger:hover {
     text-align: center;
 }
 
-.benefits-tab-button{
-    border: 1px solid transparent;
-    transition: all 0.3s;
-    padding: 10px 70px;
-} 
-
-.benefits-tab-button:hover{
+.nav-tabs .nav-link:hover{
+    color: rgba(255, 66, 66, 1);
     border: 1px solid rgba(255, 66, 66, 1);
     border-radius: 4px;
 }
 
-.benefits-tab-button:hover > .benefits-link {
+.nav-tabs .nav-link.active{
+    border: 1px solid rgba(255, 66, 66, 1);
     color: rgba(255, 66, 66, 1);
 }
+
+.benefits-tab-button{
+    border: 1px solid transparent;
+    transition: all 0.3s;
+} 
 
 .benefits-link{
     color: rgba(154, 156, 165, 1);
@@ -499,7 +500,8 @@ button.btn-outline-danger:hover {
     font-weight: 700;
     line-height: 19px;
     text-align: center;
-    padding: 0;
+    transition: all 0.3s;
+    padding: 10px 70px;
 }
 
 .benefits__middle-title {
@@ -510,10 +512,58 @@ button.btn-outline-danger:hover {
     text-align: left;
 }
 
-.benefits__tab{
-    display: flex;
+.benefits__tabs-items{
+    justify-content: center;
 }
 
-.benefits__tab-column{
+.events{
+    background: var(--btn-gradient, linear-gradient(45.00deg, rgba(255, 64, 58, 0.2),rgba(247, 94, 5, 0.2) 100%));
+}
 
+.events__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events__subtitle {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.events__title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: left;
+}
+
+.events__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.events__bottom-text {
+    color: rgba(30, 33, 44, 1);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.test{
+    display: flex;
+    gap: 30px;
+}
+
+.test_reverse{
+    flex-direction: row-reverse;
 }
