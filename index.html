@@ -758,7 +758,7 @@
                                     <p class="an-event__subtitle">Onine master-class</p>
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-about-us btn-outline-danger">View more</button>
+                            <button type="button" class="btn btn-about-us btn-outline-danger" data-bs-toggle="modal" data-bs-target="#reg-modal">View more</button>
                         </div>
                         <div class="an__event">
                             <div class="an__event-text">
@@ -792,7 +792,7 @@
                                     <p class="an-event__subtitle">Onine workshop</p>
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-about-us btn-outline-danger">View more</button>
+                            <button type="button" class="btn btn-about-us btn-outline-danger" data-bs-toggle="modal" data-bs-target="#reg-modal">View more</button>
                         </div>
                     </div>
                     <div class="events__bottom">
@@ -1108,12 +1108,47 @@
 </svg>
             <!-- Element 2 -->
         </section>
-        <section class="sertificate">
+        <section class="certificate">
             <div class="container">
-                <div class="sertificate__inner">
-                    <div class="sertificate__top">
-                        <h4 class="sertificate__subtitle"></h4>
-                        <h1 class="sertificate__title"></h1>
+                <div class="certificate__inner">
+                    <div class="certificate__items">
+                        <div class="certificate__column">
+                            <div class="certificate__top">
+                                <h4 class="certificate__subtitle">Createx Certificate</h4>
+                                <h1 class="certificate__title">Your expertise will be confirmed</h1>
+                            </div>
+                            <p class="certificate__text">We are accredited by international professional organizations
+                                and
+                                institutes:</p>
+                        </div>
+                        <div class="certificate__bottom">
+                            <img src="images/certificate-logo1.jpg" alt="certificate__logo1"
+                                class="certificate__logo-img">
+                            <img src="images/certificate-logo2.jpg" alt="certificate__logo1"
+                                class="certificate__logo-img">
+                            <img src="images/certificate-logo3.jpg" alt="certificate__logo1"
+                                class="certificate__logo-img">
+                        </div>
+                    </div>
+                    <img src="images/certificate.jpg" alt="certificate__img" class="certificate__img">
+                </div>
+            </div>
+        </section>
+        <section class="our__team">
+            <div class="container">
+                <div class="our__team-inner">
+                    <div class="our__team-top">
+                        <div class="our__team-titles">
+                        <h4 class="team__subtitle"></h4>
+                        <h1 class="team__title"></h1>
+                        </div>
+                        <div class="our__team-items">
+                            <div class="team__card">
+                                <img src="" alt="" class="team__img">
+                                <h4 class="team__card-title"></h4>
+                                <p class="team__card-descr"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1127,25 +1162,24 @@
     <footer></footer>
 
 
-
-<div class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+<!-- modal -->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="moal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe src="https://calendar.google.com/calendar/embed?src=33bf2cfca977d365de8d108d0994ebd31df02d92efd9e231e5bc9d806f71587f%40group.calendar.google.com&ctz=Europe%2FKiev" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-about-us btn-outline-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
-
+<!-- END modal -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

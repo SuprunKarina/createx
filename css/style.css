@@ -683,3 +683,55 @@ button.btn-outline-danger:hover {
     left: 1470px;
     opacity: 0.3;
 }
+
+.certificate__inner{
+    display: flex;
+    gap: 135px;
+}
+
+.certificate__items{
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate__column{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.certificate__top{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.certificate__subtitle {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.certificate__title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: left;
+}
+
+.certificate__text {
+    color: rgba(66, 69, 81, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.modal-content{
+    width: fit-content;
+}
