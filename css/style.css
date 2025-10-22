@@ -686,12 +686,14 @@ button.btn-outline-danger:hover {
 
 .certificate__inner{
     display: flex;
+    position: relative;
     gap: 135px;
 }
 
 .certificate__items{
     display: flex;
     flex-direction: column;
+    max-width: 392px;
 }
 
 .certificate__column{
@@ -730,6 +732,82 @@ button.btn-outline-danger:hover {
     font-weight: 400;
     line-height: 19px;
     text-align: left;
+}
+
+.certificate__bottom{
+    display: flex;
+    align-items: center;
+}
+
+.certificate__img{
+    position: absolute;
+}
+
+.our__team{
+    background-color: rgba(244, 245, 247, 1);
+}
+
+.team__subtitle {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.team__title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+}
+
+.our__team-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.our__team-items{
+    display: flex;
+    gap: 30px;
+}
+
+.team__card{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.team__card-top{
+    background-color: rgba(255, 207, 45, 1);
+    width: fit-content;
+    padding: 20px 20px 0 20px;
+    border-radius: 4px;
+}
+
+.team__card-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.team__card-title {
+    color: rgba(66, 69, 81, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.team__card-descr {
+    color: rgba(120, 122, 128, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
 }
 
 .modal-content{
