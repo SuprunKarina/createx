@@ -684,6 +684,10 @@ button.btn-outline-danger:hover {
     opacity: 0.3;
 }
 
+.certificate{
+    margin-bottom: 75px;
+}
+
 .certificate__inner{
     display: flex;
     position: relative;
@@ -745,6 +749,7 @@ button.btn-outline-danger:hover {
 
 .our__team{
     background-color: rgba(244, 245, 247, 1);
+    padding-bottom: 180px;
 }
 
 .team__subtitle {
@@ -810,6 +815,108 @@ button.btn-outline-danger:hover {
     text-align: center;
 }
 
+.testimonials{
+    background-color: rgba(244, 245, 247, 1);
+}
+
+.testimonials__subtitle {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.testimonials__title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: center;
+}
+
+.testimonisals__carousel{
+    display: flex;;
+}
+
+.testimonials__card{
+    background: white;
+    display: flex;
+    gap: 30px;
+    padding: 64px 105px;
+}
+
+.testimonials__card-column{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.testimonials__card-braces{
+    height: 20px;
+}
+
+.testimonials__card-text {
+    color: rgba(66, 69, 81, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.testimonials__card-bottom{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.testimonials__photo-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.testimonials__card-name {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
+
+.testimonials__card-title {
+    color: rgba(120, 122, 128, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
 .modal-content{
     width: fit-content;
+}
+
+button.our__team-next, button.our__team-prev {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    top: -96px;
+}
+
+button:hover.our__team-next, button:hover.our__team-prev {
+    background-color: rgba(255, 63, 58, 1);
+}
+
+button.our__team-prev {
+    left: auto;
+    right: 45px;
+}
+
+button.testimonials__next, button.testimonials__prev{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    top: 148px;
 }
