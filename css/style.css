@@ -817,6 +817,7 @@ button.btn-outline-danger:hover {
 
 .testimonials{
     background-color: rgba(244, 245, 247, 1);
+    padding-bottom: 140px;
 }
 
 .testimonials__subtitle {
@@ -846,6 +847,8 @@ button.btn-outline-danger:hover {
     display: flex;
     gap: 30px;
     padding: 64px 105px;
+    max-width: 1020px;
+    margin: 0 auto;
 }
 
 .testimonials__card-column{
@@ -894,8 +897,105 @@ button.btn-outline-danger:hover {
     text-align: left;
 }
 
+.blog__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.blog__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blog__top-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.blog__subtitle {
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.blog__title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: left;
+}
+
+.blog__info{
+    display: flex;
+    flex-direction: row;
+}
+
+.blog__info-text {
+    color: rgba(120, 122, 128, 1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+}
+
+.blog__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: min-content;
+}
+
+.blog__card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.divider{
+    border-right: 1px solid rgba(120, 122, 128, 1);
+    padding-right: 12px;
+    margin-right: 12px;
+}
+
+.blog__card-title {
+    color: rgba(30, 33, 44, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.blog__card-descr {
+    color: rgba(66, 69, 81, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
 .modal-content{
     width: fit-content;
+}
+
+.carousel-indicators{
+    display: flex;
+    gap: 12px;
+    top: 378px;
+}
+
+.carousel-indicators [data-bs-target]{
+    border: 3px solid rgba(66, 69, 81, 1);
+    width: 30px;
+    height: 0;
+    border-radius: 50px;
 }
 
 button.our__team-next, button.our__team-prev {
@@ -919,4 +1019,8 @@ button.testimonials__next, button.testimonials__prev{
     height: 48px;
     border-radius: 50%;
     top: 148px;
+}
+
+.testimonials__prev, .testimonials__next{
+    background-color: red;
 }
