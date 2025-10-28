@@ -1028,6 +1028,9 @@ button.btn-outline-danger:hover {
 
 .subscribe{
     background: var(--btn-gradient, linear-gradient(45.00deg, rgba(255, 64, 58, 0.2),rgba(247, 94, 5, 0.2) 100%));
+    padding-bottom: 180px;
+    padding-top: 120px;
+    position: relative;
 }
 
 .subscribe__inner{
@@ -1087,6 +1090,77 @@ button.btn-outline-danger:hover {
 
 .subscribe__change-width{
     width: 154px;
+}
+
+.subscribe__svg{
+    position: absolute;
+    bottom: 0;
+}
+
+.subscribe__svg-2{
+    right: 0;
+}
+
+.footer{
+    background-color: rgba(30, 33, 44, 1);
+}
+
+.footer__inner{
+    display: flex;
+    gap: 80px;
+}
+
+.footer__createx{
+    max-width: 279px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.createx__footer-img{
+    width: 130px;
+    height: 22px;
+}
+
+.footer__createx-paragraph {
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__column-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer__column-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__column-btn, .footer__contacts-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding: 0;
+    opacity: 0.6;
 }
 
 .modal-content{
