@@ -106,7 +106,6 @@ overflow-x: hidden;
 .btn-danger:hover{
     background: linear-gradient(45.00deg,rgb(165, 46, 86),  rgb(180, 100, 54) 100%);
      transition: all ease .2s;
-  
 }
 
 .about__middle{
@@ -938,12 +937,21 @@ button.btn-outline-danger:hover {
     flex-direction: row;
 }
 
+.blog__info-icon{
+    margin-right: 8px;
+}
+
 .blog__info-text {
     color: rgba(120, 122, 128, 1);
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
     text-align: left;
+}
+
+.blog__middle{
+    display: flex;
+    justify-content: space-between;
 }
 
 .blog__card{
@@ -1010,12 +1018,8 @@ button.btn-outline-danger:hover {
     width: min-content;
 }
 
-.btn__blog-card:hover{
-    background: linear-gradient(45.00deg, rgba(255, 63, 58, 1),rgba(246.6254425048828, 93.75582122802734, 5.25230598449707, 1) 100%);
-}
-
 .btn__blog-card:hover>.blog__card-btn--text{
-    color:#fff
+    color: rgba(255, 63, 58, 1)
 }
 
 .blog__card-btn--text{
@@ -1122,12 +1126,29 @@ button.btn-outline-danger:hover {
     height: 22px;
 }
 
+.footer__createx-info{
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+
 .footer__createx-paragraph {
     color: rgba(255, 255, 255, 1);
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
     text-align: left;
+    opacity: 0.6;
+}
+
+.footer__socials{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.social__btn{
+    padding: 0;
     opacity: 0.6;
 }
 
@@ -1161,6 +1182,46 @@ button.btn-outline-danger:hover {
     text-align: left;
     padding: 0;
     opacity: 0.6;
+}
+
+.btn:hover {
+    color: rgba(255, 255, 255, 1);
+    opacity: 100%;
+}
+
+.sign__up-column{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: min-content;
+}
+
+.sign__up{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sign__up-input {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 12px;
+    width: 286px;
+}
+
+.sign__up-descr {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+}
+
+.footer__lower {
+    background: var(--white, rgba(255, 255, 255, 1));
+    opacity: 0.05;
 }
 
 .modal-content{
