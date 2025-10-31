@@ -89,8 +89,10 @@ overflow-x: hidden;
 }
 
 .btns__right{
-    margin-left: 200px;
+    margin-left: 188px;
     display: flex;
+    align-items: center;
+    gap: 36px;
 }
 
 .btn-danger{
@@ -106,6 +108,24 @@ overflow-x: hidden;
 .btn-danger:hover{
     background: linear-gradient(45.00deg,rgb(165, 46, 86),  rgb(180, 100, 54) 100%);
      transition: all ease .2s;
+}
+
+.register__header-tab{
+    display: flex;
+    gap: 16px;
+}
+
+.register__header-tab, .register__icon{
+    transition: none !important;
+}
+
+
+.header-tabs:hover>.register__icon>path{
+    fill: rgba(255, 63, 58, 1);
+}
+
+.header-tabs>.header__tab-text:hover{
+    
 }
 
 .about__middle{
@@ -489,6 +509,14 @@ button.btn-outline-danger:hover {
     color: rgba(255, 66, 66, 1);
 }
 
+.nav-link:hover>.benefits__link-icon>path{
+    fill: rgba(255, 66, 66, 1);
+}
+
+.nav-link.active>.benefits__link-icon>path{
+    fill: rgba(255, 66, 66, 1);
+}
+
 .benefits-tab-button{
     border: 1px solid transparent;
     transition: all 0.3s;
@@ -501,7 +529,10 @@ button.btn-outline-danger:hover {
     line-height: 19px;
     text-align: center;
     transition: all 0.3s;
-    padding: 10px 85px;
+    padding: 10px 70px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .tab-content{
@@ -744,6 +775,7 @@ button.btn-outline-danger:hover {
 
 .certificate__img{
     position: absolute;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05),0px 12px 10px -6px rgba(154, 156, 165, 0.08),0px 30px 24px -10px rgba(154, 156, 165, 0.1),0px 80px 80px -20px rgba(154, 156, 165, 0.16);
 }
 
 .our__team{
@@ -783,6 +815,10 @@ button.btn-outline-danger:hover {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.team__card>.team__card-top:hover{
+    
 }
 
 .team__card-top{
@@ -1184,6 +1220,11 @@ button.btn-outline-danger:hover {
     opacity: 0.6;
 }
 
+.footer__contacts-link:hover{
+    color: #fff;
+    opacity: 100%;
+}
+
 .btn:hover {
     color: rgba(255, 255, 255, 1);
     opacity: 100%;
@@ -1220,8 +1261,35 @@ button.btn-outline-danger:hover {
 }
 
 .footer__lower {
-    background: var(--white, rgba(255, 255, 255, 1));
-    opacity: 0.05;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.footer__lower-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__lower-text{
+    display: flex;
+    gap: 4px;
+    width: 290px;
+}
+
+.footer__lower-text--part {
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+}
+
+.footer__lower-button {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    padding: 0;
 }
 
 .modal-content{
@@ -1267,3 +1335,7 @@ button.testimonials__next, button.testimonials__prev{
 .testimonials__prev, .testimonials__next{
     background-color: red;
 }
+
+/* .tttt:hover>path{
+fill: green;
+} */
