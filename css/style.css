@@ -813,6 +813,7 @@ button.btn-outline-danger:hover {
 .our__team{
     background-color: rgba(244, 245, 247, 1);
     padding-bottom: 180px;
+    padding-top: 166px;
 }
 
 .team__subtitle {
@@ -1181,6 +1182,8 @@ button.btn-outline-danger:hover {
 .footer__inner{
     display: flex;
     gap: 80px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .footer__createx{
@@ -1342,18 +1345,23 @@ button.btn-outline-danger:hover {
     border-radius: 50px;
 }
 
-button.our__team-next, button.our__team-prev {
+button.team__arrow-next, button.team__arrow-prev {
     width: 48px;
     height: 48px;
     border-radius: 50%;
     top: -96px;
+    opacity: 100%;
 }
 
-button:hover.our__team-next, button:hover.our__team-prev {
+button:hover.custom__arrow-next, button:hover.custom__arrow-prev {
     background-color: rgba(255, 63, 58, 1);
 }
 
-button.our__team-prev {
+button:hover.custom__arrow-next>svg>path, button:hover.custom__arrow-prev>svg>path {
+    fill: #ffffff;
+}
+
+button.team__arrow-prev {
     left: auto;
     right: 45px;
 }
@@ -1363,10 +1371,7 @@ button.testimonials__next, button.testimonials__prev{
     height: 48px;
     border-radius: 50%;
     top: 148px;
-}
-
-.testimonials__prev, .testimonials__next{
-    background-color: red;
+    opacity: 100%;
 }
 
 /* .tttt:hover>path{
