@@ -12,56 +12,63 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/response.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__inner">
-                <div class="btns__left">
-                    <a href="#" class="logo">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo" href="#">
                         <img src="images/logo.svg" alt="logo" class="logo__img">
                     </a>
-                    <nav class="menu">
-                        <ul class="nav header_nav">
-                            <li class="nav-item">
-                                <a class="nav-link header-tabs active" aria-current="page" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link header-tabs" href="#">Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link header-tabs" href="#">Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link header-tabs" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link header-tabs" href="#">Contacts</a>
-                            </li>
-                        </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                       <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 7L4 7" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M20 12L4 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M20 17L4 17" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="testttt">
+                            <ul class="navbar-nav m-auto header_nav">
+                                <li class="nav-item">
+                                    <a class="nav-link header-tabs" href="#">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-tabs" href="#">Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-tabs" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-tabs" href="#">Contacts</a>
+                            </ul>
+                            <div class="btns__right">
+                                <button type="button" class="btn btn-danger">Get consuitation</button>
+                                <a class="nav-link header-tabs register__header-tab" href="#">
+                                    <svg class="register__icon" viewBox="0 0 16.6665 17.917"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16.666504" height="17.916992" fill="none" customFrame="#000000">
+                                        <path id="Vector"
+                                            d="M3.74987 4.58333C3.74987 2.05203 5.8019 0 8.3332 0C10.8645 0 12.9165 2.05203 12.9165 4.58333C12.9165 7.11464 10.8645 9.16667 8.3332 9.16667C5.8019 9.16667 3.74987 7.11464 3.74987 4.58333ZM8.3332 1.66667C6.72237 1.66667 5.41654 2.9725 5.41654 4.58333C5.41654 6.19416 6.72237 7.5 8.3332 7.5C9.94403 7.5 11.2499 6.19416 11.2499 4.58333C11.2499 2.9725 9.94403 1.66667 8.3332 1.66667ZM3.41992 10C2.32729 10 1.19601 10.5467 0.689393 11.6638C0.398405 12.3054 0.0861565 13.1679 0.00900837 14.0668C-0.0612453 14.8853 0.278955 15.7399 1.04584 16.2163C2.17379 16.917 4.46687 17.9167 8.3332 17.9167C12.1995 17.9167 14.4926 16.917 15.6206 16.2163C16.3874 15.7399 16.7276 14.8853 16.6574 14.0668C16.5802 13.1679 16.268 12.3054 15.977 11.6638C15.4704 10.5467 14.3391 10 13.2465 10L3.41992 10ZM2.20725 12.3522C2.39056 11.948 2.84215 11.6667 3.41992 11.6667L13.2465 11.6667C13.8243 11.6667 14.2758 11.948 14.4592 12.3522C14.7129 12.9116 14.9426 13.5777 14.9968 14.2093C15.0211 14.4917 14.9033 14.6998 14.7411 14.8006C13.8835 15.3333 11.8962 16.25 8.3332 16.25C4.7702 16.25 2.78294 15.3333 1.9253 14.8006C1.76307 14.6998 1.64533 14.4917 1.66957 14.2093C1.72378 13.5777 1.95354 12.9116 2.20725 12.3522Z"
+                                            fill="rgb(65.6094,68.8538,80.75)" fill-rule="evenodd" />
+                                    </svg>
+                                    <p class="header__tab-text">Log in / Register</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <ul class="btns__right">
-                    <button type="button" class="btn btn-danger">Get consuitation</button>
-                    <a class="nav-link header-tabs register__header-tab" href="#">
-                        <svg class="register__icon" viewBox="0 0 16.6665 17.917" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" width="16.666504" height="17.916992" fill="none"
-                            customFrame="#000000">
-                            <path id="Vector"
-                                d="M3.74987 4.58333C3.74987 2.05203 5.8019 0 8.3332 0C10.8645 0 12.9165 2.05203 12.9165 4.58333C12.9165 7.11464 10.8645 9.16667 8.3332 9.16667C5.8019 9.16667 3.74987 7.11464 3.74987 4.58333ZM8.3332 1.66667C6.72237 1.66667 5.41654 2.9725 5.41654 4.58333C5.41654 6.19416 6.72237 7.5 8.3332 7.5C9.94403 7.5 11.2499 6.19416 11.2499 4.58333C11.2499 2.9725 9.94403 1.66667 8.3332 1.66667ZM3.41992 10C2.32729 10 1.19601 10.5467 0.689393 11.6638C0.398405 12.3054 0.0861565 13.1679 0.00900837 14.0668C-0.0612453 14.8853 0.278955 15.7399 1.04584 16.2163C2.17379 16.917 4.46687 17.9167 8.3332 17.9167C12.1995 17.9167 14.4926 16.917 15.6206 16.2163C16.3874 15.7399 16.7276 14.8853 16.6574 14.0668C16.5802 13.1679 16.268 12.3054 15.977 11.6638C15.4704 10.5467 14.3391 10 13.2465 10L3.41992 10ZM2.20725 12.3522C2.39056 11.948 2.84215 11.6667 3.41992 11.6667L13.2465 11.6667C13.8243 11.6667 14.2758 11.948 14.4592 12.3522C14.7129 12.9116 14.9426 13.5777 14.9968 14.2093C15.0211 14.4917 14.9033 14.6998 14.7411 14.8006C13.8835 15.3333 11.8962 16.25 8.3332 16.25C4.7702 16.25 2.78294 15.3333 1.9253 14.8006C1.76307 14.6998 1.64533 14.4917 1.66957 14.2093C1.72378 13.5777 1.95354 12.9116 2.20725 12.3522Z"
-                                fill="rgb(65.6094,68.8538,80.75)" fill-rule="evenodd" />
-                        </svg>
-                        <p class="header__tab-text">Log in / Register</p>
-                    </a>
-                </ul>
-                </nav>
-            </div>
+            </nav>
         </div>
     </header>
 
-    <main>
-
-
+    <main >
         <section class="about mb180">
             <div class="container">
                 <div class="about__inner">
@@ -438,7 +445,7 @@
             </svg>
             <!-- END Element 6 -->
         </section>
-        <section class="why__createx mb180">
+        <section style="display: none;" class="why__createx mb180">
             <div class="container">
                 <div class="why__createx-inner">
                     <img src="images/why__createx.jpg" alt="" class="why__createx-img">
@@ -480,7 +487,7 @@
                 </div>
             </div>
         </section>
-        <section class="featured__courses mb180">
+        <section style="display: none;" class="featured__courses mb180">
             <div class="container">
                 <div class="featured__courses-inner">
                     <div class="featured__courses-top">
@@ -622,7 +629,7 @@
                 </div>
             </div>
         </section>
-        <section class="our__benefits mb120">
+        <section style="display: none;" class="our__benefits mb120">
             <div class="container">
                 <div class="our__benefits-inner">
                     <div class="our__benefits-top">
@@ -635,9 +642,9 @@
                                 <button class="nav-link active benefits-link" id="exp-tab" data-bs-toggle="tab"
                                     data-bs-target="#exp-tab-pane" type="button" role="tab" aria-controls="exp-tab-pane"
                                     aria-selected="true">
-                                    <svg class="benefits__link-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="16.000000" height="16.000000"
-                                        fill="none" customFrame="#000000">
+                                    <svg class="benefits__link-icon" viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16.000000" height="16.000000" fill="none" customFrame="#000000">
                                         <rect id="Star" width="16.000000" height="16.000000" x="0.000000"
                                             y="0.000000" />
                                         <path id="Star (Stroke)"
@@ -651,9 +658,9 @@
                                 <button class="nav-link benefits-link" id="feedb-tab" data-bs-toggle="tab"
                                     data-bs-target="#feedb-tab-pane" type="button" role="tab"
                                     aria-controls="feedb-tab-pane" aria-selected="false">
-                                    <svg class="benefits__link-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="16.000000" height="16.000000"
-                                        fill="none">
+                                    <svg class="benefits__link-icon" viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16.000000" height="16.000000" fill="none">
                                         <rect id="like" width="16.000000" height="16.000000" x="0.000000"
                                             y="0.000000" />
                                         <path id="shape (Stroke)"
@@ -667,9 +674,9 @@
                                 <button class="nav-link benefits-link" id="online-tab" data-bs-toggle="tab"
                                     data-bs-target="#online-tab-pane" type="button" role="tab"
                                     aria-controls="online-tab-pane" aria-selected="false">
-                                    <svg class="benefits__link-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="16.000000" height="16.000000"
-                                        fill="none">
+                                    <svg class="benefits__link-icon" viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16.000000" height="16.000000" fill="none">
                                         <rect id="Layouts" width="16.000000" height="16.000000" x="0.000000"
                                             y="0.000000" />
                                         <path id="Vector"
@@ -683,9 +690,9 @@
                                 <button class="nav-link benefits-link" id="comm-tab" data-bs-toggle="tab"
                                     data-bs-target="#comm-tab-pane" type="button" role="tab"
                                     aria-controls="comm-tab-pane" aria-selected="false">
-                                    <svg class="benefits__link-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="16.000000" height="16.000000"
-                                        fill="none" customFrame="#000000">
+                                    <svg class="benefits__link-icon" viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="16.000000" height="16.000000" fill="none" customFrame="#000000">
                                         <rect id="Chat" width="16.000000" height="16.000000" x="0.000000"
                                             y="0.000000" />
                                         <path id="Vector"
@@ -791,7 +798,7 @@
             </div>
             </div>
         </section>
-        <section class="events mb120">
+        <section style="display: none;" class="events mb120">
             <div class="container">
                 <div class="events__inner">
                     <div class="events__top">
@@ -1176,7 +1183,7 @@
             </svg>
             <!-- Element 2 -->
         </section>
-        <section class="certificate">
+        <section style="display: none;" class="certificate">
             <div class="container">
                 <div class="certificate__inner">
                     <div class="certificate__items">
@@ -1204,7 +1211,7 @@
                 </div>
             </div>
         </section>
-        <section class="our__team">
+        <section style="display: none;" class="our__team">
             <div class="container">
                 <div class="our__team-inner">
                     <div class="our__team-top">
@@ -1364,7 +1371,7 @@
                 </div>
             </div>
         </section>
-        <section class="testimonials mb120">
+        <section style="display: none;" class="testimonials mb120">
             <div class="container">
                 <div class="testimonials__inner">
                     <div class="testimonials__top">
@@ -1482,7 +1489,7 @@
                 </div>
             </div>
         </section>
-        <section class="blog mb180">
+        <section style="display: none;" class="blog mb180">
             <div class="container">
                 <div class="blog__inner">
                     <div class="blog__top">
@@ -1588,7 +1595,7 @@
                 </div>
             </div>
         </section>
-        <section class="subscribe">
+        <section style="display: none;" class="subscribe">
             <div class="container">
                 <div class="subscribe__inner">
                     <div class="subscribe__top">
@@ -1610,7 +1617,7 @@
 
     </main>
 
-    <footer class="footer">
+    <footer class="footer" style="display: none;">
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__createx">
@@ -1689,9 +1696,9 @@
             <div class="container">
                 <div class="footer__lower-inner">
                     <div class="footer__lower-text">
-                    <p class="footer__lower-text--part">© All rights reserved. Made with</p>
-                    <img src="images/Heart.svg" alt="heart" class="footer__lower-text--heart">
-                    <p class="footer__lower-text--part">by Createx Studio </p>
+                        <p class="footer__lower-text--part">© All rights reserved. Made with</p>
+                        <img src="images/Heart.svg" alt="heart" class="footer__lower-text--heart">
+                        <p class="footer__lower-text--part">by Createx Studio </p>
                     </div>
                     <button class="btn footer__lower-button">GO TO TOP</button>
                 </div>

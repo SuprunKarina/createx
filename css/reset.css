@@ -40,6 +40,11 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
+.nav-link:focus, .nav-link:hover {
+    color: inherit;
+}
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
