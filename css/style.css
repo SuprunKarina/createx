@@ -146,8 +146,6 @@ body {
     fill: rgba(255, 63, 58, 1);
 }
 
-.header-tabs>.header__tab-text:hover {}
-
 .about__middle {
     display: flex;
     justify-content: space-between;
@@ -307,8 +305,13 @@ button.btn-outline-danger:hover {
 
 .about__list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 66px;
+}
+
+.list__half{
+    display: flex;
+    gap: 66px;
 }
 
 .about__list-item {
@@ -862,8 +865,6 @@ button.btn-outline-danger:hover {
     flex-direction: column;
     gap: 16px;
 }
-
-.team__card>.team__card-top:hover {}
 
 .team__card-top {
     background-color: rgba(255, 207, 45, 1);
