@@ -1,4 +1,4 @@
-@media (max-width: 1600px){
+@media (max-width: 1440px){
     .element_icon_2{
         right: 0;
     }
@@ -12,9 +12,6 @@
         bottom: 100px;
         right: 0;
     }
-}
-
-@media (max-width: 1500px){
     .element_icon_1 {
         top: 0;
     }
@@ -30,15 +27,28 @@
     .about__middle {
         margin-left: 20px;
     }
-    .about__list{
+    .about__list-inner{
+        flex-direction: row;
+        max-width: 600px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .list__half{
         flex-direction: column;
     }
-    .circle__option{
+    .circle__img{
         display: none;
+    }
+    .why__createx-img{
+        width: 50%;
+        height: 50%;
     }
 }
 
 @media (max-width: 1200px) {
+    .about{
+        margin-bottom: 50px;
+    }
     .about__inner{
         gap: 100px;
     }
@@ -60,6 +70,7 @@
     .about__title{
         text-align: center;
         max-width: none;
+        margin: 0 20px;
     }
     .about__img{
         max-width: 50%;
@@ -68,10 +79,22 @@
     .element_icon_3{
         display: none;
     }
+    .why__createx-inner{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .why__createx-img{
+        margin: auto;
+    }
+    .why__createx-column{
+        margin: auto;
+    }
 }
 
 @media (max-width:1000px){
-    .element_icon_6{
+    .element_icon_6,
+    .element_icon_5,
+    .why__createx-img{
         display: none;
     }
 }
@@ -88,10 +111,63 @@
         flex-direction: column-reverse;
         gap: 35px;
     }
+    .logo{
+        margin: 0 40px;
+    }
 }
 
 
 
-@media (max-width: 600px) {}
+@media (max-width: 700px) {
+    .about__list-inner{
+        margin: 0 50px;
+    }
+}
 
-@media (max-width: 574px) {}
+@media (max-width: 600px){
+    .about__list-inner{
+        flex-direction: column;
+    }
+    .list__half{
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .about__title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .btn-danger,
+    .btn-outline-danger{
+        width: fit-content;
+    }
+    .about{
+    padding-top: 0px;
+    }
+    .about__inner {
+        gap: 50px;
+    }
+    .about__list-inner {
+        gap: 10px;
+    }
+    .list__half{
+        gap: 10px;
+    }
+    .element_icon{
+        display: none;
+    }
+    .about__list-num {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 350px){
+    .about__title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+}
