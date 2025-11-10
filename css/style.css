@@ -451,6 +451,7 @@ button.btn-outline-danger:hover {
 
 .featured__img {
     width: 100%;
+    height: 100%;
 }
 
 .featured__card-body {
@@ -497,6 +498,7 @@ button.btn-outline-danger:hover {
 .featured__bottom-row {
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 
 .featured__card-number {
