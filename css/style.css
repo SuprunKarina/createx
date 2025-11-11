@@ -297,6 +297,7 @@ body {
     color: rgba(255, 63, 58, 1);
     border: 1px solid rgba(255, 63, 58, 1);
     transition: all ease .2s;
+    min-width: max-content;
 }
 
 button.btn-outline-danger:hover {
@@ -684,6 +685,7 @@ button.btn-outline-danger:hover {
     display: flex;
     align-items: center;
     gap: 20px;
+    min-width: max-content;
 }
 
 .event__date-number {

@@ -15,11 +15,18 @@
     .element_icon_1 {
         top: 0;
     }
+    .events__element1,
+    .events__element2{
+        display: none;
+    }
 }
 
 @media (max-width: 1400px){
     .element_icon_2{
         top: -40px;
+    }
+    .btn-about-us{
+        width: max-content;
     }
 }
 
@@ -89,6 +96,12 @@
     .why__createx-column{
         margin: auto;
     }
+    .benefits__middle-img{
+        width: 40%;
+    }
+    .benefits-link{
+        padding: 10px 40px;
+    }
 }
 
 @media (max-width:1000px){
@@ -103,6 +116,9 @@
     }
     .featured__card-credits{
         font-size: 14px;
+    }
+    .benefits-link{
+        padding: 10px 10px;
     }
 }
 
@@ -123,10 +139,7 @@
     }
 }
 
-@media (max-width:900px){
-    
-    
-}
+
 @media (max-width: 768px) {
     .featured__card {
         flex-direction: column;
@@ -137,11 +150,45 @@
     .card__text-column {
         width: 100%;
     }
+    .benefits__link-text{
+        display: none;
+    }
+    .benefits-link{
+        padding: 20px 50px;
+    }
+    .benefits__link-icon{
+        scale: 2;
+    }
+    .nav-link.active>.benefits__link-icon>path {
+        fill: rgb(255, 255, 255);
+    }
+    .nav-tabs .nav-link.active{
+        background-color: rgba(255, 66, 66, 1);
+        border: none;
+    }
+    .benefits__middle-img{
+        display: none;
+    }
 }
 
 @media (max-width: 700px) {
     .about__list-inner{
         margin: 0 50px;
+    }
+    .an__event{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .an__event-text{
+        flex-direction: column;
+        align-items: center;
+    }
+    .an-event__title{
+        text-align: center;
+    }
+    .an-event__subtitle{
+        text-align: center;
     }
 }
 
@@ -152,7 +199,12 @@
     .list__half{
         align-items: center;
     }
-
+    .benefits__link-icon{
+        scale: 150%;
+    }
+    .benefits-link {
+        padding: 20px 45px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -196,6 +248,12 @@
     .featured__card-title {
         font-size: 28px;
         text-align: center;
+    }
+    .featured__item{
+        margin: 0 40px;
+    }
+    .benefits-link {
+        padding: 20px 25px;
     }
 }
 
