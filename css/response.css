@@ -50,6 +50,9 @@
         width: 50%;
         height: 50%;
     }
+    .certificate__img{
+        right: 0;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -101,6 +104,26 @@
     }
     .benefits-link{
         padding: 10px 40px;
+    }
+    .certificate__inner{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .certificate__items{
+        max-width: none;
+        align-items: center;
+    }
+    .certificate__img{
+        left: 0;
+        margin: auto;
+    }
+    .certificate__subtitle,
+    .certificate__title,
+    .certificate__text{
+        text-align: center;
+    }
+    .certificate{
+        padding-bottom: 380px;
     }
 }
 
@@ -190,6 +213,10 @@
     .an-event__subtitle{
         text-align: center;
     }
+    .certificate__img{
+        width: 70%;
+    }
+    
 }
 
 @media (max-width: 600px){
@@ -254,6 +281,18 @@
     }
     .benefits-link {
         padding: 20px 25px;
+    }
+    .featured__img{
+        height: 100%;
+    }
+    .certificate__logo-img{
+        width: 30%;
+    }
+    .certificate__bottom{
+        justify-content: center;
+    }
+    .certificate__title{
+
     }
 }
 
