@@ -53,6 +53,18 @@
     .certificate__img{
         right: 0;
     }
+    .blog__image{
+        width: 370px;
+    }
+    .subscribe__svg{
+        width: 220px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .subscribe__svg-2{
+        display: none;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -125,6 +137,9 @@
     .certificate{
         padding-bottom: 380px;
     }
+    .blog__image{
+        width: 310px;
+    }
 }
 
 @media (max-width:1000px){
@@ -142,6 +157,14 @@
     }
     .benefits-link{
         padding: 10px 10px;
+    }
+    .blog__middle{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .blog__image{
+        width: 500px;
     }
 }
 
@@ -232,6 +255,9 @@
     .benefits-link {
         padding: 20px 45px;
     }
+    .blog__image {
+        width: 400px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -294,12 +320,39 @@
     .certificate__title{
 
     }
+    .blog__image {
+        width: 300px;
+    }
+    .blog__top{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .subscribe__middle{
+        flex-direction: column;
+    }
+    .subscribe__input-email{
+        width: auto;
+    }
+    .subscribe__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .subscribe__svg{
+        display: none;
+    }
+    .subscribe__inner{
+        gap: 30px;
+    }
 }
 
 @media (max-width: 350px){
     .about__title {
         font-size: 20px;
         line-height: 25px;
+    }
+    .blog__image {
+        width: 250px;
     }
     
 }
