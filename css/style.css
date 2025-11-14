@@ -1206,8 +1206,14 @@ button.btn-outline-danger:hover {
     padding-bottom: 40px;
 }
 
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+}
+
 .footer__createx {
-    max-width: 279px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -1258,6 +1264,7 @@ button.btn-outline-danger:hover {
     letter-spacing: 1px;
     text-align: left;
     text-transform: uppercase;
+    width: max-content;
 }
 
 .footer__column-list {
@@ -1275,6 +1282,7 @@ button.btn-outline-danger:hover {
     text-align: left;
     padding: 0;
     opacity: 0.6;
+    width: max-content;
 }
 
 .footer__contacts-link:hover {
@@ -1291,7 +1299,6 @@ button.btn-outline-danger:hover {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: min-content;
 }
 
 .sign__up {
@@ -1306,7 +1313,6 @@ button.btn-outline-danger:hover {
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.12);
     padding: 12px;
-    width: 286px;
 }
 
 .sign__up-descr {
@@ -1319,6 +1325,7 @@ button.btn-outline-danger:hover {
 
 .footer__lower {
     background: rgba(255, 255, 255, 0.05);
+    padding: 20px 0;
 }
 
 .footer__lower-inner {
