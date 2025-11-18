@@ -860,6 +860,12 @@ button.btn-outline-danger:hover {
     gap: 60px;
 }
 
+.our__team-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .our__team-items {
     display: flex;
     justify-content: space-between;
@@ -902,6 +908,7 @@ button.btn-outline-danger:hover {
 }
 
 .slick-prev{
+    background-image: url();
 }
 
 .testimonials {
@@ -1359,6 +1366,10 @@ button.btn-outline-danger:hover {
     padding: 0;
 }
 
+.card-title{
+    margin: 0;
+}
+
 .modal-content {
     width: fit-content;
 }
@@ -1424,4 +1435,34 @@ button.testimonials__prev {
 .navbar-toggler>svg {
     width: 50px;
     height: 50px;
+}
+
+.slick-prev.slider__arrow-left,.slick-next.slider__arrow-right{
+   top: -60px;
+   right: 0;
+   position: absolute;
+   border-radius: 50%;
+   width: 48px;
+   height: 48px;
+}
+
+.slick-prev.slider__arrow-left{
+    right: 45px;
+    left: auto;
+}
+
+.slick-prev:hover.slider__arrow-left,.slick-next:hover.slider__arrow-right{
+    background-color: rgba(255, 63, 58, 1);
+}
+
+.slick-prev.slider__arrow-left.slick-arrow::before{
+    display: none;
+}
+.slick-next.slider__arrow-right.slick-arrow::before{
+    display: none;
+}
+
+button:hover.slider__arrow-left>svg>path,
+button:hover.slider__arrow-right>svg>path{
+    fill: #fff;
 }

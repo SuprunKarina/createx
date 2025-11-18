@@ -38,7 +38,7 @@
         flex-direction: row;
         max-width: 600px;
         margin: auto;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .list__half{
         flex-direction: column;
@@ -184,6 +184,12 @@
     .blog__image{
         width: 500px;
     }
+    .why__createx-column{
+        align-items: center;
+    }
+    .why__createx-upper{
+        align-items: center;
+    }
 }
 
 @media (max-width:991px) {
@@ -237,7 +243,7 @@
 
 @media (max-width: 700px) {
     .about__list-inner{
-        margin: 0 50px;
+
     }
     .an__event{
         flex-direction: column;
@@ -256,6 +262,14 @@
     }
     .certificate__img{
         width: 70%;
+    }
+    .featured__courses-top{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .featured__top-titles{
+        align-items: center;
     }
     
 }
@@ -288,12 +302,16 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+    .about__title{
+        font-size: 50px;
+        line-height: 60px;
+    }
 }
 
 @media (max-width: 500px) {
     .about__title {
-        font-size: 45px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 40px;
     }
     .btn-danger,
     .btn-outline-danger{
@@ -393,23 +411,37 @@
     .btn-danger{
         width: 100%;
     }
-    .featured__courses-top{
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+    
+    
+    .featured__title{
+        font-size: 30px;
+        line-height: 40px;
     }
-    .featured__top-titles{
-        align-items: center;
+    .featured__card-title{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .about__list-text{
+        font-size: 13px;
+        line-height: 16px;
     }
 }
 
 @media (max-width: 350px){
-    .about__title {
-        font-size: 20px;
-        line-height: 25px;
-    }
     .blog__image {
         width: 250px;
     }
-    
+    .navbar>.container-fluid{
+        flex-direction: row;
+    }
+    .logo{
+        margin: 0;
+    }
+    .why__createx-upper{
+        align-items: center;
+    }
+    .why__createx-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
