@@ -158,9 +158,21 @@
     .footer__createx-info{
         gap: 30px;
     }
+    .team__card-top{
+        max-width: 100%;
+        width: 90%;
+    }
 }
 
 @media (max-width:1000px){
+    .mb120,
+    .mb180
+    {
+        margin-bottom: 60px;
+    }
+    .our__team{
+        padding: 100px;
+    }
     .element_icon_6,
     .element_icon_5,
     .why__createx-img{
@@ -190,6 +202,13 @@
     .why__createx-upper{
         align-items: center;
     }
+    .testimonials__card{
+        padding: 30px;
+    }
+    button.testimonials__next,
+    button.testimonials__prev {
+        top: -50px;
+    }
 }
 
 @media (max-width:991px) {
@@ -206,6 +225,10 @@
     }
     .logo{
         margin: 0 40px;
+    }
+    .carousel-indicators {
+        top: auto;
+        bottom: -50px;
     }
 }
 
@@ -239,12 +262,12 @@
     .benefits__middle-img{
         display: none;
     }
+    .certificate__img{
+        width: 680px;
+    }
 }
 
 @media (max-width: 700px) {
-    .about__list-inner{
-
-    }
     .an__event{
         flex-direction: column;
         gap: 40px;
@@ -261,7 +284,7 @@
         text-align: center;
     }
     .certificate__img{
-        width: 70%;
+        width: 570px;
     }
     .featured__courses-top{
         flex-direction: column;
@@ -270,6 +293,28 @@
     }
     .featured__top-titles{
         align-items: center;
+    }
+    .team__card-top{
+        width: 100%;
+    }
+    .slick-prev.slider__arrow-left{
+        left: -10px;
+    }
+    .our__team-inner{
+        gap: 100px;
+    }
+    .our__team-titles{
+        align-items: center;
+    }
+    .certificate{
+        padding-bottom: 300px;
+    }
+    .testimonials__card{
+        padding: 10px;
+    }
+    .testimonials__card-text{
+        font-size: 15px;
+        line-height: 20px;
     }
     
 }
@@ -305,6 +350,18 @@
     .about__title{
         font-size: 50px;
         line-height: 60px;
+    }
+    .certificate__img{
+        width: 470px;
+    }
+    .events__bottom{
+        flex-direction: column;
+    }
+    .certificate {
+        padding-bottom: 230px;
+    }
+    .testimonials__card{
+        flex-direction: column;
     }
 }
 
@@ -411,7 +468,9 @@
     .btn-danger{
         width: 100%;
     }
-    
+    .certificate {
+        padding-bottom: 135px;
+    }
     
     .featured__title{
         font-size: 30px;
@@ -425,6 +484,12 @@
         font-size: 13px;
         line-height: 16px;
     }
+    .certificate__img {
+        width: 320px;
+    }
+    .about{
+        padding-bottom: 30px;
+    } 
 }
 
 @media (max-width: 350px){
@@ -443,5 +508,11 @@
     .why__createx-title{
         font-size: 30px;
         line-height: 40px;
+    }
+    .certificate__img {
+        width: 300px;
+    }
+    .certificate {
+        padding-bottom: 120px;
     }
 }
