@@ -430,11 +430,14 @@
         align-items: center;
         gap: 30px;
     }
+    .subscribe{
+        padding: 60px 0;
+    }
     .subscribe__middle{
         flex-direction: column;
     }
     .subscribe__input-email{
-        width: auto;
+        width: 100%;
     }
     .subscribe__title{
         font-size: 30px;
@@ -447,7 +450,8 @@
         gap: 30px;
     }
     .footer__column-list{
-        flex-direction: column
+        flex-direction: column;
+        align-items: center;
     }
     .footer__lower-inner{
         flex-direction: column-reverse;

@@ -68,7 +68,13 @@ body {
 }
 
 .header {
-    background: var(--btn-gradient, linear-gradient(45.00deg, rgba(255, 64, 58, 0.2), rgba(247, 94, 5, 0.2) 100%));
+    /* background: var(--btn-gradient, linear-gradient(45.00deg, rgba(255, 64, 58, 0.2), rgba(247, 94, 5, 0.2) 100%)); */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* temp highlighted */
+    background: yellow;
 }
 
 .btns__left {
