@@ -68,13 +68,11 @@ body {
 }
 
 .header {
-    /* background: var(--btn-gradient, linear-gradient(45.00deg, rgba(255, 64, 58, 0.2), rgba(247, 94, 5, 0.2) 100%)); */
+    background: RGB(254, 221, 209); 
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
-    /* temp highlighted */
-    background: yellow;
 }
 
 .btns__left {
@@ -594,13 +592,13 @@ button.btn-outline-danger:hover {
     margin-top: 60px;
 }
 
-.test {
+.benefits__content {
     display: flex;
     align-items: center;
     gap: 135px;
 }
 
-.test_reverse {
+.benefits__content-reverse {
     flex-direction: row-reverse;
 }
 
@@ -1380,6 +1378,10 @@ button.btn-outline-danger:hover {
     padding: 0;
 }
 
+.modal-dialog{
+    max-width: fit-content;
+}
+
 .card-title{
     margin: 0;
 }
@@ -1400,6 +1402,8 @@ button.btn-outline-danger:hover {
     height: 0;
     border-radius: 50px;
 }
+
+
 
 button.team__arrow-next,
 button.team__arrow-prev {
@@ -1439,7 +1443,7 @@ button.testimonials__prev {
 }
 
 
-.testttt {
+.header__inner {
     display: flex;
     justify-content: space-between;
     width: 100%;

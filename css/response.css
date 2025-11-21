@@ -1,210 +1,259 @@
-@media (max-width: 1440px){
-    .element_icon_2{
+@media (max-width: 1440px) {
+    .element_icon_2 {
         right: 0;
     }
-    .element_icon_3{
+
+    .element_icon_3 {
         bottom: 75px;
     }
+
     .element_icon_4 {
         display: none;
     }
-    .element_icon_6{
+
+    .element_icon_6 {
         bottom: 100px;
         right: 0;
     }
+
     .element_icon_1 {
         top: 0;
     }
+
     .events__element1,
-    .events__element2{
+    .events__element2 {
         display: none;
     }
 }
 
-@media (max-width: 1400px){
-    .element_icon_2{
+@media (max-width: 1400px) {
+    .element_icon_2 {
         top: -40px;
     }
-    .btn-about-us{
+
+    .btn-about-us {
         width: max-content;
     }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
     .about__middle {
         margin-left: 20px;
     }
-    .about__list-inner{
+
+    .about__list-inner {
         flex-direction: row;
         max-width: 600px;
         margin: auto;
         justify-content: space-evenly;
     }
-    .list__half{
+
+    .list__half {
         flex-direction: column;
     }
-    .circle__img{
+
+    .circle__img {
         display: none;
     }
-    .why__createx-img{
+
+    .why__createx-img {
         width: 50%;
         height: 50%;
     }
-    .certificate__img{
+
+    .certificate__img {
         right: 0;
     }
-    .blog__image{
+
+    .blog__image {
         width: 370px;
     }
-    .subscribe__svg{
+
+    .subscribe__svg {
         width: 220px;
         right: 0;
         left: 0;
         margin: auto;
     }
-    .subscribe__svg-2{
+
+    .subscribe__svg-2 {
         display: none;
     }
 }
 
 @media (max-width: 1200px) {
-    .about{
+    .about {
         margin-bottom: 50px;
     }
-    .about__inner{
+
+    .about__inner {
         gap: 100px;
     }
+
     .about__middle {
         flex-direction: column-reverse;
         gap: 60px;
         margin: 0;
     }
-    .about__column{
+
+    .about__column {
         margin: auto;
         align-items: center;
     }
+
     .about__column-upper {
         align-items: center;
     }
-    .play__items{
+
+    .play__items {
         flex-direction: column;
     }
-    .about__title{
+
+    .about__title {
         text-align: center;
         max-width: none;
         margin: 0 20px;
     }
-    .about__img{
+
+    .about__img {
         max-width: 50%;
         margin: auto;
     }
-    .element_icon_3{
+
+    .element_icon_3 {
         display: none;
     }
-    .why__createx-inner{
+
+    .why__createx-inner {
         flex-direction: column;
         gap: 50px;
     }
-    .why__createx-img{
+
+    .why__createx-img {
         margin: auto;
     }
-    .why__createx-column{
+
+    .why__createx-column {
         margin: auto;
     }
-    .benefits__middle-img{
+
+    .benefits__middle-img {
         width: 40%;
     }
-    .benefits-link{
+
+    .benefits-link {
         padding: 10px 40px;
     }
-    .certificate__inner{
+
+    .certificate__inner {
         flex-direction: column;
         gap: 40px;
     }
-    .certificate__items{
+
+    .certificate__items {
         max-width: none;
         align-items: center;
     }
-    .certificate__img{
+
+    .certificate__img {
         left: 0;
         margin: auto;
     }
+
     .certificate__subtitle,
     .certificate__title,
-    .certificate__text{
+    .certificate__text {
         text-align: center;
     }
-    .certificate{
+
+    .certificate {
         padding-bottom: 380px;
     }
-    .blog__image{
+
+    .blog__image {
         width: 310px;
     }
-    .footer__inner{
+
+    .footer__inner {
         flex-direction: column;
     }
+
     .sign__up-column,
-    .footer__createx{
+    .footer__createx {
         align-items: center;
     }
-    .footer__createx-paragraph{
+
+    .footer__createx-paragraph {
         text-align: center;
     }
+
     .footer__content,
-    .footer__socials{
+    .footer__socials {
         justify-content: space-evenly;
         gap: 0;
     }
-    .footer__createx-info{
+
+    .footer__createx-info {
         gap: 30px;
     }
-    .team__card-top{
+
+    .team__card-top {
         max-width: 100%;
         width: 90%;
     }
 }
 
-@media (max-width:1000px){
+@media (max-width:1000px) {
+
     .mb120,
-    .mb180
-    {
+    .mb180 {
         margin-bottom: 60px;
     }
-    .our__team{
-        padding: 100px;
+
+    .our__team {
+        padding: 100px 0;
     }
+
     .element_icon_6,
     .element_icon_5,
-    .why__createx-img{
+    .why__createx-img {
         display: none;
     }
- 
-    .card__text-column{
+
+    .card__text-column {
         width: 60%;
     }
-    .featured__card-credits{
+
+    .featured__card-credits {
         font-size: 14px;
     }
-    .benefits-link{
+
+    .benefits-link {
         padding: 10px 10px;
     }
-    .blog__middle{
+
+    .blog__middle {
         flex-direction: column;
         align-items: center;
         gap: 50px;
     }
-    .blog__image{
+
+    .blog__image {
         width: 500px;
     }
-    .why__createx-column{
+
+    .why__createx-column {
         align-items: center;
     }
-    .why__createx-upper{
+
+    .why__createx-upper {
         align-items: center;
     }
-    .testimonials__card{
+
+    .testimonials__card {
         padding: 30px;
     }
+
     button.testimonials__next,
     button.testimonials__prev {
         top: -50px;
@@ -219,13 +268,15 @@
         margin-top: 35px;
     }
 
-    .testttt {
+    .header__inner {
         flex-direction: column-reverse;
         gap: 35px;
     }
-    .logo{
+
+    .logo {
         margin: 0 40px;
     }
+
     .carousel-indicators {
         top: auto;
         bottom: -50px;
@@ -237,131 +288,181 @@
     .featured__card {
         flex-direction: column;
     }
+
     .featured__card-body {
         gap: 10px;
     }
+
     .card__text-column {
         width: 100%;
     }
-    .benefits__link-text{
+
+    .benefits__link-text {
         display: none;
     }
-    .benefits-link{
+
+    .benefits-link {
         padding: 20px 50px;
     }
-    .benefits__link-icon{
+
+    .benefits__link-icon {
         scale: 2;
     }
+
     .nav-link.active>.benefits__link-icon>path {
         fill: rgb(255, 255, 255);
     }
-    .nav-tabs .nav-link.active{
+
+    .nav-tabs .nav-link.active {
         background-color: rgba(255, 66, 66, 1);
         border: none;
     }
-    .benefits__middle-img{
+
+    .benefits__middle-img {
         display: none;
     }
-    .certificate__img{
+
+    .certificate__img {
         width: 680px;
+    }
+
+    .calendar_item {
+        width: 100%;
+    }
+
+    .modal-content-calendar {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .modal-dialog-calendar {
+        width: 100%;
+        max-width: 100%;
     }
 }
 
 @media (max-width: 700px) {
-    .an__event{
+    .an__event {
         flex-direction: column;
         gap: 40px;
         align-items: center;
     }
-    .an__event-text{
+
+    .an__event-text {
         flex-direction: column;
         align-items: center;
     }
-    .an-event__title{
+
+    .an-event__title {
         text-align: center;
     }
-    .an-event__subtitle{
+
+    .an-event__subtitle {
         text-align: center;
     }
-    .certificate__img{
+
+    .certificate__img {
         width: 570px;
     }
-    .featured__courses-top{
+
+    .featured__courses-top {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .featured__top-titles{
+
+    .featured__top-titles {
         align-items: center;
     }
-    .team__card-top{
+
+    .team__card-top {
         width: 100%;
     }
-    .slick-prev.slider__arrow-left{
+
+    .slick-prev.slider__arrow-left {
         left: -10px;
     }
-    .our__team-inner{
+
+    .our__team-inner {
         gap: 100px;
     }
-    .our__team-titles{
+
+    .our__team-titles {
         align-items: center;
     }
-    .certificate{
+
+    .certificate {
         padding-bottom: 300px;
     }
-    .testimonials__card{
+
+    .testimonials__card {
         padding: 10px;
     }
-    .testimonials__card-text{
+
+    .testimonials__card-text {
         font-size: 15px;
         line-height: 20px;
     }
-    
+
 }
 
-@media (max-width: 600px){
-    .about__list-inner{
+@media (max-width: 600px) {
+    .about__list-inner {
         flex-direction: column;
+        align-items: start;
     }
-    .list__half{
-        align-items: center;
-    }
-    .benefits__link-icon{
+
+    .benefits__link-icon {
         scale: 150%;
     }
+
     .benefits-link {
         padding: 20px 45px;
     }
+
     .blog__image {
         width: 400px;
     }
-    .footer__content{
+
+    .footer__content {
         flex-direction: column;
         align-items: center;
         gap: 50px;
     }
-    .footer__column{
+
+    .footer__column {
         align-items: center;
     }
-    .footer__column-list{
+
+    .footer__column-list {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .about__title{
+
+    .about__title {
         font-size: 50px;
         line-height: 60px;
     }
-    .certificate__img{
+
+    .certificate__img {
         width: 470px;
     }
-    .events__bottom{
+
+    .events__bottom {
         flex-direction: column;
     }
+
     .certificate {
         padding-bottom: 230px;
     }
-    .testimonials__card{
+
+    .testimonials__card {
         flex-direction: column;
+    }
+
+    .team__title {
+        font-size: 40px;
+        line-height: 45px;
     }
 }
 
@@ -370,152 +471,193 @@
         font-size: 30px;
         line-height: 40px;
     }
+
     .btn-danger,
-    .btn-outline-danger{
+    .btn-outline-danger {
         width: fit-content;
     }
-    .about{
-    padding-top: 0px;
+
+    .about {
+        padding-top: 0px;
     }
+
     .about__inner {
         gap: 50px;
     }
+
     .about__list-inner {
         gap: 10px;
     }
-    .list__half{
+
+    .list__half {
         gap: 10px;
     }
-    .element_icon{
+
+    .element_icon {
         display: none;
     }
+
     .about__list-num {
         font-size: 30px;
         line-height: 35px;
     }
-    .featured__courses-middle{
+
+    .featured__courses-middle {
         flex-direction: column;
     }
-    .featured__card-body{
+
+    .featured__card-body {
         align-items: center;
     }
+
     .featured__card-subtitle {
         font-size: 23px;
         line-height: 25px;
     }
+
     .featured__card-title {
         font-size: 28px;
         text-align: center;
     }
-    .featured__item{
+
+    .featured__item {
         margin: 0 40px;
     }
+
     .benefits-link {
         padding: 20px 25px;
     }
-    .featured__img{
+
+    .featured__img {
         height: 100%;
     }
-    .certificate__logo-img{
+
+    .certificate__logo-img {
         width: 30%;
     }
-    .certificate__bottom{
+
+    .certificate__bottom {
         justify-content: center;
     }
+
     .blog__image {
         width: 300px;
     }
-    .blog__top{
+
+    .blog__top {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-    .subscribe{
+
+    .subscribe {
         padding: 60px 0;
     }
-    .subscribe__middle{
+
+    .subscribe__middle {
         flex-direction: column;
     }
-    .subscribe__input-email{
+
+    .subscribe__input-email {
         width: 100%;
     }
-    .subscribe__title{
+
+    .subscribe__title {
         font-size: 30px;
         line-height: 35px;
     }
-    .subscribe__svg{
+
+    .subscribe__svg {
         display: none;
     }
-    .subscribe__inner{
+
+    .subscribe__inner {
         gap: 30px;
     }
-    .footer__column-list{
+
+    .footer__column-list {
         flex-direction: column;
         align-items: center;
     }
-    .footer__lower-inner{
+
+    .footer__lower-inner {
         flex-direction: column-reverse;
         align-items: center;
         gap: 20px;
     }
-    .footer__lower-text{
+
+    .footer__lower-text {
         justify-content: center;
     }
-    .footer__lower-text--part{
+
+    .footer__lower-text--part {
         font-size: 10px;
     }
-    .about__btns{
+
+    .about__btns {
         flex-direction: column;
         width: 100%;
     }
+
     .btn-outline-danger,
-    .btn-danger{
+    .btn-danger {
         width: 100%;
     }
+
     .certificate {
         padding-bottom: 135px;
     }
-    
-    .featured__title{
+
+    .featured__title {
         font-size: 30px;
         line-height: 40px;
     }
-    .featured__card-title{
+
+    .featured__card-title {
         font-size: 20px;
         line-height: 25px;
     }
-    .about__list-text{
+
+    .about__list-text {
         font-size: 13px;
         line-height: 16px;
     }
+
     .certificate__img {
         width: 320px;
     }
-    .about{
+
+    .about {
         padding-bottom: 30px;
-    } 
+    }
 }
 
-@media (max-width: 350px){
+@media (max-width: 350px) {
     .blog__image {
         width: 250px;
     }
-    .navbar>.container-fluid{
+
+    .navbar>.container-fluid {
         flex-direction: row;
     }
-    .logo{
+
+    .logo {
         margin: 0;
     }
-    .why__createx-upper{
+
+    .why__createx-upper {
         align-items: center;
     }
-    .why__createx-title{
+
+    .why__createx-title {
         font-size: 30px;
         line-height: 40px;
     }
+
     .certificate__img {
         width: 300px;
     }
+
     .certificate {
         padding-bottom: 120px;
     }
